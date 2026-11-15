@@ -2,7 +2,7 @@
 
 **¿Cada persona con su EPP? Foto, cámara o pantalla: la IA de NVIDIA revisa a cada trabajador según el sector (casco, guantes, lentes, chaleco, calzado, arnés, ropa) y arma el reporte de cumplimiento. Para video continuo en faena, un detector propio corre en el equipo, sin nube.**
 
-[![Abrir la máquina](https://img.shields.io/badge/Probar-jsnn15.github.io%2Fvigia-ffb020?style=for-the-badge)](https://jsnn15.github.io/vigia/)
+[![Abrir la herramienta](https://img.shields.io/badge/Probar-jsnn15.github.io%2Fvigia-ffb020?style=for-the-badge)](https://jsnn15.github.io/vigia/)
 ![NVIDIA Nemotron VL](https://img.shields.io/badge/NVIDIA-Nemotron%20VL-76b900?style=flat-square&logo=nvidia&logoColor=white)
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-detector%20local-111?style=flat-square)
 ![Licencia](https://img.shields.io/badge/licencia-AGPL--3.0-blue?style=flat-square)
@@ -92,4 +92,4 @@ Detector YOLOv8 propio que corre en el navegador del equipo de la faena (ONNX Ru
 ---
 
 <sub>Proyecto personal de **Julián Neira Nova**, ingeniero eléctrico con 10 años en faena · Servicio y Soluciones Tecnológicas DelaCruz SpA. Nada de lo publicado proviene de clientes ni de empleadores.
-[Portafolio](https://jsnn15.github.io/) · [LinkedIn](https://www.linkedin.com/in/julian-neira-nova/) · [Todas las máquinas](https://github.com/JSNN15)</sub>
+[Portafolio](https://jsnn15.github.io/) · [LinkedIn](https://www.linkedin.com/in/julian-neira-nova/) · [Todas las herramientas](https://github.com/JSNN15)</sub>
