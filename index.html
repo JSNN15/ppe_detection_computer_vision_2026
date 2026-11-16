@@ -13,14 +13,11 @@
       property="og:description"
       content="Casco, guantes, lentes, chaleco, calzado, arnés y ropa según el sector. La IA revisa a cada persona y arma el reporte de cumplimiento."
     />
-    <meta property="og:image" content="https://jsnn15.github.io/vigia/docs/epp.jpg" />
+    <meta property="og:image" content="https://jsnn15.github.io/ppe_detection_computer_vision_2026/docs/epp.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Work+Sans:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
     <style>
       :root {
         --bg: #0a0b0d;
@@ -29,15 +26,15 @@
         --line: #262b33;
         --fg: #ebeef2;
         --muted: #959cab;
-        --acc: #ffb020;
+        --acc: #ff8e3c;
         --nv: #76b900;
         --alto: #ff4d3d;
         --medio: #f5a524;
         --bajo: #3ccf7a;
         --nv2: #4fd3ef;
-        --display: 'Big Shoulders Display', 'Arial Narrow', Impact, sans-serif;
-        --sans: 'Work Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
-        --mono: 'IBM Plex Mono', ui-monospace, Consolas, monospace;
+        --display: 'Geist', system-ui, sans-serif;
+        --sans: 'Geist', system-ui, -apple-system, 'Segoe UI', sans-serif;
+        --mono: 'Geist Mono', ui-monospace, Consolas, monospace;
         color-scheme: dark;
       }
       * {
@@ -113,11 +110,11 @@
       }
       h1 {
         font-family: var(--display);
-        font-weight: 800;
-        text-transform: uppercase;
-        font-size: clamp(2.2rem, 5vw, 3.6rem);
-        line-height: 0.9;
+        font-weight: 600;
+        font-size: clamp(2rem, 4.2vw, 3.1rem);
+        line-height: 1.04;
         margin: 0;
+        letter-spacing: -0.035em;
       }
       h1 em {
         font-style: normal;
@@ -230,8 +227,8 @@
       .drop .big {
         font-family: var(--display);
         font-size: 1.8rem;
-        text-transform: uppercase;
         color: var(--fg);
+        letter-spacing: -0.02em;
       }
       .scan {
         position: absolute;
@@ -450,6 +447,7 @@
         font-family: var(--display);
         font-size: 2rem;
         color: var(--fg);
+        letter-spacing: -0.02em;
       }
       .resumen {
         margin: 0;
@@ -699,9 +697,9 @@
       }
       .rp h2 {
         font-family: var(--display);
-        text-transform: uppercase;
         margin: 0;
         font-size: 1.8rem;
+        letter-spacing: -0.02em;
       }
       .rp table {
         width: 100%;
@@ -850,10 +848,10 @@
       ><span class="jnb-who"><b>Vigía EPP</b> · DelaCruz · Julián Neira Nova</span><span class="jnb-sp"></span
       ><a
         class="jnb-gh"
-        href="https://github.com/JSNN15/vigia"
+        href="https://github.com/JSNN15/ppe_detection_computer_vision_2026"
         target="_blank"
         rel="noopener"
-        title="Ver el código de esta máquina en GitHub"
+        title="Ver el código en GitHub"
         ><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
           <path
             fill="currentColor"
@@ -880,15 +878,15 @@
       <div class="in">
         <a class="brand" href="./"
           ><svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true">
-            <path d="M5 20a11 11 0 0 1 22 0v2H5z" fill="none" stroke="#ffb020" stroke-width="2.4" />
-            <path d="M3 22h26" stroke="#ffb020" stroke-width="2.4" stroke-linecap="round" />
-            <path d="M16 9v6" stroke="#ffb020" stroke-width="2.4" />
+            <path d="M5 20a11 11 0 0 1 22 0v2H5z" fill="none" stroke="#ff8e3c" stroke-width="2.4" />
+            <path d="M3 22h26" stroke="#ff8e3c" stroke-width="2.4" stroke-linecap="round" />
+            <path d="M16 9v6" stroke="#ff8e3c" stroke-width="2.4" />
             <circle cx="25" cy="8" r="2" fill="#76b900" /></svg
           >Vigía EPP</a
         >
         <div class="r">
           <a class="s" href="app.html#sala">Sala de control en tiempo real</a
-          ><a class="s" href="../"><span class="lg">Julián Neira Nova · </span>Portafolio →</a>
+          >
         </div>
       </div>
     </nav>
@@ -901,7 +899,7 @@
             Foto, cámara o pantalla. La IA revisa a cada persona según el sector: casco, guantes, lentes,
             chaleco, calzado, arnés o ropa, y arma el reporte de cumplimiento.
           </p>
-          <p class="sub demo">Demo de portafolio: usa una API gratuita compartida, con cupo diario. Una revisión toma entre 10 y 30 segundos y a veces no hay cupo.</p>
+          <p class="sub demo">Usa una API gratuita con cupo diario. Una revisión toma entre 10 y 30 segundos y a veces no hay cupo.</p>
         </div>
         <span class="nvb">revisión con <b>NVIDIA Nemotron VL</b></span>
       </div>
@@ -1156,7 +1154,7 @@
               (miss.length
                 ? ` · falta ${miss.slice(0, 3).join(', ')}${miss.length > 3 ? '…' : ''}`
                 : ' · OK');
-            cx.font = `600 ${Math.round(fs * 0.78)}px IBM Plex Mono, monospace`;
+            cx.font = `600 ${Math.round(fs * 0.78)}px Geist Mono, monospace`;
             const tw = cx.measureText(label).width + 12,
               th = fs * 1.15,
               ty = Math.max(0, b[1] - th);
