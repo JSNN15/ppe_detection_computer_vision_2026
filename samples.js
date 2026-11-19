@@ -1302,7 +1302,7 @@ const SAMPLES = [
     "img": "s/e7.jpg",
     "sector": "soldadura",
     "credit": "Alfred Palmer: Phosphate smelting furnace worker, Muscle Sho · trialsanderrors · CC BY 2.0",
-    "link": "https://www.flickr.com/photos/76204898@N00/2895382484",
+    "link": "https://www.flickr.com/photos/76204898@N00/",
     "ms": 4156,
     "items": [
       [
